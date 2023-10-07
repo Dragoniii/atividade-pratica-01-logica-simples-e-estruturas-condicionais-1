@@ -2,3 +2,4 @@
 
 const idade = 30
 document.write(`Minha idade é ${idade} anos.`);
+document.write(`<br>`);

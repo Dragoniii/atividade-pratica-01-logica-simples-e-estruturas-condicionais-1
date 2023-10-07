@@ -9,3 +9,4 @@ const valorDaParcela = valorDaCompra / numeroDeParcelas;
 document.write(`O valor total da compra foi R$ ${valorDaCompra}.`);
 document.write(`<br>`);
 document.write(`Forma de pagamento: ${numeroDeParcelas} vezes de R$ ${valorDaParcela}.`);
+document.write(`<br>`);

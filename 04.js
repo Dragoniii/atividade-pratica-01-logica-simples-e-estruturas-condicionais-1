@@ -4,3 +4,4 @@ const minutos = 7;
 const segundos = minutos * 60;
 
 document.write(`${minutos} minutos equivalem a ${segundos} segundos.`);
+document.write(`<br>`);

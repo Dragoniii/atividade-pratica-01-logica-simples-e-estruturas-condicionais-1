@@ -5,3 +5,4 @@ const y = 4;
 const z = x + y;
 
 document.write(`O resultado da soma de ${x} e ${y} é ${z}.`);
+document.write(`<br>`);

@@ -7,3 +7,4 @@ const nota3 = 10;
 const nota = (nota1+nota2+nota3)/3;
 
 document.write(`O aluno ${nome} ficou com média ${nota.toFixed(2)}.`);
+document.write(`<br>`);
