@@ -5,17 +5,18 @@ function calcularIdade(dataNascimento) {
   let nascimento = new Date(dataNascimento);
 
   let idade = hoje.getFullYear() - nascimento.getFullYear();
-  let mes = hoje.getMonth() - nascimento.getMonth();
+  let verificarMes = hoje.getMonth() - nascimento.getMonth();
 
   let diaNascimento = nascimento.getDate()
   let hojeDia = hoje.getDate()
 
-  if (mes < 0 || (mes === 0 && (hojeDia<diaNascimento))) {
+  if (verificarMes < 0 || (verificarMes === 0 && (hojeDia<diaNascimento))) {
     idade = idade - 1;
   }
 
   return idade;
 }
 
-let idade = calcularIdade("1992-10-14");
+let idade = calcularIdade("1992-12-04");
 document.write("<p>A idade calculada é: " + idade + " anos</p>");
+document.write(`<br>`);
